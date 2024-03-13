@@ -26,7 +26,6 @@ class ParseCommandLine:
         args = parser.parse_args()
         print("test apk={}, activity={}, quality={}, architecture={}".format(args.apk, args.activity, args.quality, args.architecture))
         print("/!\ Be sure to start one, and only one Pixel 2 emutator, with API level 28, before this script.")
-        print("/!\ Be sure to start the Session Replay local player before this script.")
         print("/!\ Be sure that mysendevent-x86 or mysendevent-arm64 in android-touch-record-replay is executable.")
         return args
 
